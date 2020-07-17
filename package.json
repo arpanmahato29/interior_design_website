@@ -1,0 +1,19 @@
+{
+  "name": "verzeo_web_dev_major_project",
+  "version": "1.0.0",
+  "description": "![verzeo-log](https://www.verzeo.in/new/images/test/logohi.png)",
+  "main": "index2",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  }
+}

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta link-colorarset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barruko Studios</title>
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/furniture-solid-icons-vol-1/48/002-512.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- Font awesome icon link  -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!--bootstrap link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- font link-->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Berkshire+Swash&family=Crimson+Text:ital,wght@0,400;0,600;1,600&family=Fondamento&family=Fredericka+the+Great&family=Galada&family=Merienda+One&family=Modak&family=PT+Serif+Caption:ital@0;1&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Grenze+Gotisch&family=Kurale&family=Rye&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/our_work.css"/>
+  <link rel="stylesheet" href="styles/navbar_footer.css"/>
+  <link rel="stylesheet" href="styles/scrollbar.css"/>
+
+</head>
+
+
+<body>
+
+
+
+   <nav class="navbar">
+    <div class="d-flex justify-content-between ml-2" style="width:100%;overflow-x:scroll;overflow-y:hidden;">
+        <div class="d-flex mr-4">
+          <a class="navbar-brand" href="#"><img src="storeImages/logo1.png" id="brand_logo"/></a>
+          <div class="d-flex flex-column ml-1" style="position:relative;top:10px">
+              <h2 id="brand_name" >Barruko Studios</h2>
+              <span id="brand_text">Interior Design</span>
+          </div><!--flex-column-->
+        </div><!--d-flex-->
+   
+    
+        <div class="d-flex float-right ml-3 mt-2 mr-5">
+          <img id="clock_png" src='storeImages/wall-clock.png'/>
+          <div class="d-flex flex-column ml-1 mr-3">
+            <h5 class="info_text">OFFICE HOURS</h5>
+            <small class="text-muted text-center time-stamp" style="position:relative;bottom:10px;">9:00 am to 7:00 pm</small>
+          </div><!--flex-column-->
+          <img id="message_png" class="ml-3" src='storeImages/mail.png'/>
+          <div class="d-flex flex-column ml-2">
+            <h5 class="info_text">EMAIL</h5>
+            <small class="text-muted text-center" style="position:relative;bottom:10px">interior@des.com</small>
+          </div><!--flex-column-->
+        </div><!--d-flex-->
+    </div>
+  </nav>
+
+
+
+     <nav id="navbar_2" class="navbar navbar-expand-md sticky-top navbar_2_small" style="background:#222830">
+      
+     
+            <ul class="navbar-nav navbar-expand">
+              <li class="nav-item"><a href="home" class="nav-link"><i class="fa fa-home"></i></a></li>
+              <li class="nav-item pl-1"><a href="#" class="nav-link active">OUR-WORK</a></li>
+              <li class="nav-item ml-2 "><a href="about-us" class="nav-link">ABOUT</a></li>
+              <li class="nav-item ml-2 "><a href="store" class="nav-link">STORE</a></li>
+              <li class="nav-item ml-2 "><a href="form" class="nav-link">CONTACT</a></li>
+            </ul>
+
+            <button class="navbar-toggler" type="button" id="topnavbartogglerbutton_2">
+              <i class="fa fa-angle-down" id="navbar_icon"></i>
+            </button>
+      
+      <div class="collapse align-items-end navbar-collapse ml-5 mt-1"  id="collapsibleNavbar_2" >
+          <div class="d-flex float-right" >
+             <div class="input-group" id="try_2">
+                <input type="search" spellcheck="false" class="form-control" placeholder="Search..." id="SearchTextBox"/>
+                <a href="store"><button type="button" id="searchSubmit" class="btn btn-success" class="input-group-text"><i class="fa fa-search"></i></button></a>
+             </div><!--input-group-->   
+          </div>  <!--d-flex-->
+      </div><!--collapse navbarcollapse-->    
+    </nav>
+
+<!-- SCRIPT FOR TOGGLER BUTTON -->
+    <script>
+      $(function(){
+        $(".navbar-toggler").click(function(){
+          $(this).css({'border':'none','outline':'none'})
+          $(this).find("i").toggleClass('fa-angle-up fa-angle-down')
+        });
+        $(".navbar-toggler").focus(function(){
+          $(this).css({'border':'none','outline':'none'})
+        });
+      });
+    </script>
+
+
+
+<!-- Script for toggler button -->
+<script>
+  $(function(){
+
+    $("#topnavbartogglerbutton_2").click(function(){
+      $("#collapsibleNavbar_2").slideToggle(300)
+    });
+
+  });
+</script>
+
+<!-- Script for Scrolling Screen -->
+<script>
+
+    $(function(){
+      $(window).scroll(function(){
+        $("#navbar_2").css('opacity','0.95')
+      });
+    });
+
+</script>
+
+
+
+
+ <!-- Hero Image and Text -->
+
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1><span style="font-size:58px;color:#ffa954">W</span>HAT <span style="font-size:58px;color:#ffa954">W</span>E <span style="font-size:58px;color:#ffa954">D</span>O</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
+  </div>
+
+
+
+ <!-- Grid Images and texts -->
+
+ <h1 style="text-align: center;font-family: 'Audiowide', cursive;font-size:60px;position: relative;top:120px;color:#004C56"><span style="color:#f4841a;font-size:75px;">O</span>UR <span style="color:#f4841a;font-size:75px;">A</span>REAS <span style="color:#f4841a;font-size:75px;">O</span>F <span style="color:#f4841a;font-size:75px">W</span>ORK</h1>
+
+
+
+
+  <div class="container-fluid ">
+
+    <div class="d-flex flex-column" id="work-layout" style="width:100%;overflow-y:hidden;overflow-x:scroll;">
+      <div class="d-flex" style="position:relative;top:198px">
+
+        <div class="w-block">
+          <div class="w-image-block">
+            <img src="storeImages/img1.jpg" class="w-image"/>
+          </div><!--w-image-->
+          <div class="w-text">
+            <h1>ARCHITECTURE</h1>
+            <br>
+            <div class="container">
+              <p >Architecture is supposed to complete nature. Great architecture makes nature more beautiful—it gives it power.</p>
+            </div>
+          </div><!--w-text-->
+        </div><!--w-block-->
+
+        <div class="w-block">
+          <div class="w-image-block">
+            <img src="storeImages/img2.jpg" class="w-image"/>
+          </div><!--w-image-->
+          <div class="w-text">
+            <h1>PLANNING</h1>
+            <br>
+            <div class="container">
+              <p >Space planning is a fundamental element of the interior design process. It starts with an in-depth analysis of how the space is to be used.</p>
+            </div>
+          </div><!--w-text-->
+        </div><!--w-block-->
+
+        <div class="w-block">
+          <div class="w-image-block">
+            <img src="storeImages/img3.jpg" class="w-image"/>
+          </div><!--w-image-->
+          <div class="w-text">
+            <h1>EXTERIOR</h1>
+            <br>
+            <div class="container">
+              <p >Exterior design provides a sophisticated compliment to the architecture of a dwelling, or space.  By integrating Nature and man-made structures, the home can be expanded into the outdoors.</p>
+            </div>
+          </div><!--w-text-->
+        </div><!--w-block-->
+
+      </div><!--d-felx-->
+
+      <div class="d-flex" style="position:relative;top:50px">
+        <div class="w-block">
+          <div class="w-image-block">
+            <img src="storeImages/img4.jpg" class="w-image"/>
+          </div><!--w-image-->
+          <div class="w-text">
+            <h1>DECORATION</h1>
+            <br>
+            <div class="container">
+              <p >Decoration is the furnishing or adorning of a space with fashionable or beautiful things.</p>
+            </div>
+          </div><!--w-text-->
+        </div><!--w-block-->
+
+          <div class="w-block">
+          <div class="w-image-block">
+            <img src="storeImages/img5.jpg" class="w-image"/>
+          </div><!--w-image-->
+          <div class="w-text">
+            <h1>INTERIOR</h1>
+            <br>
+            <div class="container">
+              <p >We have variety of top most already established ready-made interior plans for you incase you want perfection.</p>
+            </div>
+          </div><!--w-text-->
+        </div><!--w-block-->
+
+          <div class="w-block">
+          <div class="w-image-block">
+            <img src="storeImages/img6.jpg" class="w-image"/>
+          </div><!--w-image-->
+          <div class="w-text">
+            <h1>STYLE SELECTION</h1>
+            <br>
+            <div class="container">
+              <p>Style Selection plays a key role in interior designs. It should be well looked upon.</p>
+            </div>
+          </div><!--w-text-->
+        </div><!--w-block-->
+
+      </div><!--d-flex-->
+
+    </div><!--flex-column-->
+
+
+
+      <div class="container mt-3" >
+          <button type="button" class="scrl-btn" id="scrl_left"><i class="fas fa-angle-double-left"></i></button>
+          <button type="button" class="scrl-btn" id="scrl_right"><i class="fas fa-angle-double-right"></i></button>
+      </div><!--container-->
+
+
+  </div><!--container-fluid-->
+
+
+
+  <!-- For scrolling page left and right -->
+      <script>
+        $(function(){
+
+          $("#scrl_left").click(function(){
+            $("#work-layout").animate({scrollLeft:'-=280px'},600);
+          });
+
+          $("#scrl_right").click(function(){
+            $("#work-layout").animate({scrollLeft:'+=280px'},600);
+          });
+
+          $("#scrl_left").hover(function(){
+            $(this).find("i").css({'transition':'0.4s ease-in-out','position':'relative','right':'7px','color':'white'});
+            $(this).css({'background':'#004c56','transition':'0.4s ease-in-out','border':'1px solid transparent'});
+          },function(){
+             $(this).find("i").css({'position':'relative','right':'0px','color':'black'});
+             $(this).css({'background':'transparent','transition':'0.4s ease-in-out','border':'1px solid #222830'});
+          });
+
+          $("#scrl_right").hover(function(){
+            $(this).find("i").css({'color':'white','position':'relative','left':'10px','transition':'0.4s'},'slow');
+            $(this).css({'background':'#004c56','transition':'0.4s ease-in-out','border':'1px solid transparent'});
+          },function(){
+            $(this).find("i").css({'color':'black','position':'relative','left':'0px'},'slow');
+            $(this).css({'background':'transparent','transition':'0.4s ease-in-out','border':'1px solid #222830'});
+          });
+          
+        });
+      </script>
+
+
+  <script>
+    $(function(){
+      $('.w-block').hover(function(){
+        $(this).find(".w-image").css({"filter":"brightness(32%)","transition":"0.2s ease-in-out"});
+        $(this).children(".w-text").css({'visibility':'visible','transition':'0s ease-in-out'});
+      },function(){
+        $(this).find(".w-image").css({"filter":"brightness(103%)","transition":"0.4s ease-in-out"});
+        $(this).children(".w-text").css('visibility','hidden');
+      });
+    });
+  </script>
+
+
+
+
+
+    <footer>
+
+      <div class="d-flex flex-column pt-4 pl-5 pr-3 mt-5 " style="background:#222830">
+
+        <div id="scrl-up">
+          <button><i class="fa fa-arrow-up" id="try"></i>
+          </button>
+        </div>
+
+        <div class="row" style="position:relative;top:-70px">
+          <div class="col-md">
+            <div class="d-flex flex-column pl-2" id="f-barruko-box" >
+              <h2 class="text-warning" style="font-size:25px;">BARRUKO STUDIOS</h2>
+              <p style="color:#bcbcb3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <div class="d-flex">
+
+                <a href="#" class="connectLink" onmouseover='this.style.color="#c4002d"' onmouseout='this.style.color="#FF1E56"'><i class="fab fa-google connectIcon ml-2"></i></a>
+
+                <a href="#" class="connectLink"><i class="fab fa-facebook connectIcon ml-3"  onmouseover='this.style.color="#2364dd"' onmouseout='this.style.color="#335EB2"'></i></a>
+
+                <a href="#" class="connectLink"><i class="fab fa-instagram connectIcon ml-3" onmouseover='this.style.color="#ff880a"' onmouseout='this.style.color="#F6BD5B"'></i></a>
+
+                <a href="#" class="connectLink" onmouseover='this.style.color="#43c9f2"' onmouseout='this.style.color="#19B2E4"'><i class="fab fa-twitter connectIcon ml-3"></i></a>
+
+                <a href="#" class="connectLink" onmouseover='this.style.color="#ef2342"' onmouseout='this.style.color="#E00022"'><i class="fab fa-pinterest connectIcon ml-3"></i></a>
+
+                <a href="#" class="connectLink" onmouseover='this.style.color="#1092d3"' onmouseout='this.style.color="#0070AC"'><i class="fab fa-linkedin-in connectIcon ml-3"></i></a>
+              
+            </div><!--d-flex-->
+            </div><!--flex-column-->
+          </div><!--col-->
+          <div class="col-md pt-4">
+            <h2 class="text-white">LATEST NEWS</h2>
+            <p><a href="#" class="f-link" >Future home will be designed around tech</a></p>
+            <div class="f-hr-line"></div>
+            <p ><a href="#" class="f-link">Home interior design ideas: 5 accessories</a></p>
+            <div class="f-hr-line"></div>
+            <p><a href="#" class="f-link">Reinventing Design education for 2020</a></p>
+            <div class="f-hr-line"></div>
+            <p><a href="#" class="f-link">Glass and Green House</a></p>
+            <div class="f-hr-line"></div>
+          </div><!--col-->
+          <div class="col-md pt-4">
+            <h2 class="text-white">GALLERY</h2>
+            <div class="d-flex flex-column pt-2">
+              <div class="d-flex">
+                <img src="storeImages/design2.jpg" class="f-image"/>
+                <img src="storeImages/design18.jpg" class="pl-2 f-image" />
+              </div><!--d-felx-->
+              <div class="d-flex pt-2">
+                <img src="storeImages/design8.jpg" class="f-image"/>
+                <img src="storeImages/design3.jpg" class="pl-2 f-image"/>
+              </div><!--dflex-->
+
+            </div><!--flex column-->
+          </div><!--col-->
+          <div class="col-md pt-4">
+            <div class="d-flex flex-column">
+              <h2 class="text-white">CONTACT US</h2>
+              <span class="f-contact-head">Address:</span>
+              <span style='color:#bcbcb3'>42/38-A, Abc Street, India, 732810</span><br>
+              <span class="f-contact-head">Call Us:</span>
+              <span><a href="tel:1234567890" class="f-link" >(123) 456-78-90</a></span><br>
+              <span class="f-contact-head">Mail Us:</span>
+              <span><a href="mailto:interior@des.com" class="f-link">interior@des.com</a></span><br>
+            </div><!--flex-column-->
+          </div><!--col-->
+        </div><!--row-->
+        <p class="text-center f-copy-text" style="position:relative;bottom:30px">&copy; 2020 <span style="font-family:fantasy;letter-spacing:1.2px ">Barruko Studios</span>. All Rights Reserved </p>
+      </div><!--d-flex-->
+    </footer>
+
+
+    <script>
+      $(function(){
+        $(".f-link").hover(function(){
+          $(this).parent().next().animate({width:"90%"},'slow');
+          $(this).parent().next().css("border","1px solid #a59a52");
+        },function(){
+           $(this).parent().next().animate({width:"5%"},'slow');
+            $(this).parent().next().css("border","1px solid #bcbcb3");
+        });
+      });
+    </script>
+
+
+    <!-- To Scroll Up -->
+
+    <script>
+      $(function(){
+        $("#scrl-up > button").click(function(){
+          var height = $(window).height()
+          $("html,body").animate({scrollTop:-height},1000);
+        });
+      });
+    </script>
+
+
+</body>
+</html>
+

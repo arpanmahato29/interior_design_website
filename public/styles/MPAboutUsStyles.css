@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+/*Global styles*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-font: 'Source Sans Pro', sans-serif;
+    --secondary-font: 'Kaushan Script';
+    --body-font: 'Cabin', sans-serif;
+    --main-font-color-dark: #252525;
+    --secondary-font-color: #bfa100;
+    --body-font-color: #515151;
+}
+
+html{
+	font-family: var(--body-font);
+	font-size: 10px;
+	color: var(--body-font-color);
+	scroll-behavior: smooth;
+}
+
+body{
+	overflow-x: hidden;
+	background: #f0ece3;
+}
+
+section{
+	padding: 3.9rem 0;
+	overflow: hidden;
+}
+
+img{
+	width: 100%;
+	max-width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-size: 1.6rem;
+}
+
+.container{
+	width: 100%;
+	max-width: 122.5rem;
+	margin: 0 auto;
+	padding: 0 2.4rem; 
+}
+
+/*header*/
+
+ 
+/*Hero*/
+.hero{
+	width: 100%;
+	height: 100vh;
+	background: url("../storeImages/aboutUsBack.jpg") no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	text-align: center;
+} 
+
+.sub-headline{
+	font-size: 8.5rem;
+	font-family: var(--secondary-font);
+    color: var(--secondary-font-color);
+    font-weight: 500;
+    line-height: .7;
+    letter-spacing: 2px;
+    opacity: 0;
+    animation: fadeUp .5s forwards;
+    animation-delay: .5s;
+}
+
+
+.first-letter{
+	text-transform: uppercase;
+	font-size: 10.3rem;
+}
+
+.headline{
+	color: #212820;
+	font-size: 5.7rem;
+	font-family: var(--main-font);
+	text-transform: uppercase;
+	font-weight: 1000;
+    letter-spacing: .5rem;
+    margin-right: -.5rem;
+    animation: scale .5s forwards;
+}
+
+
+
+/*Discover who we are*/
+.global-headline{
+	text-align: center;
+	margin-top: 3.9rem;
+}
+
+.discover-who-we-are .global-headline{
+	margin-top: 6.9rem;
+}
+
+
+.headline-dark{
+	color: var(--main-font-color-dark);
+	letter-spacing: .7rem;
+	margin-right: -.7rem;
+}
+
+.global-headline .sub-headline{
+	letter-spacing: -1px;
+	line-height: .42;
+}
+
+.studio-info{
+	text-align: center;
+}
+
+.studio-description{
+	margin-bottom: 3rem;
+}
+
+.studio-description p{
+	line-height: 1.6;
+	margin-bottom: 2.4rem;
+}
+
+
+/*Quatation1*/
+.quotation1{
+	background: url("../storeImages/IDQuotation1.jpg") center no-repeat;
+	background-size: cover;
+}
+
+.between{
+	min-height: 65vh;
+	display: flex;
+	align-items: center;
+}
+
+/*Discover what we do*/
+.image-group{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1.5rem;
+}
+
+.discover-what-we-do .studio-description{
+	padding-top: 3rem;
+	margin-bottom: 0;
+}
+
+/*Quotation2*/
+.quotation2{
+	background: url("../storeImages/IDQuotation2.jpg") center no-repeat;
+	background-size: cover;
+}
+
+/*Footer*/
+
+
+/*Media queries*/
+@media screen and (min-width: 900px){
+	section{
+		padding: 7.9rem;
+	}
+
+    .sub-headline{
+    	font-size: 10rem;
+    }
+
+    .first-letter{
+    	font-size: 12.2rem;
+    }
+
+    .headline{
+    	font-size: 5.7rem;
+    	letter-spacing: .8rem;
+    }
+
+    .studio-info{
+    	display: flex;
+    	align-items: center;
+    }
+
+    .studio-info > div{
+    	flex: 1;
+    }
+
+    .padding-right{
+    	padding-right: 7rem;
+    }
+}
+
+/*Animations*/
+@keyframes fadeUp{
+	0%{
+		transform: translateY(4rem);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes scale{
+	0%{
+		transform: scale(2);
+	}
+	100%{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes up{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		transform: translateY(-1rem);
+	}
+}
+

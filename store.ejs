@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barruko Studios</title>
+    <!-- Vanilla CSS stylesheet  -->
+    <link rel="stylesheet" href="styles/store.css"/>
+    <link rel="stylesheet" href="styles/navbar_footer.css"/>
+    <link rel="stylesheet" href="scrollbar.css" />
+    <!-- Font awesome icon link  -->
+
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/furniture-solid-icons-vol-1/48/002-512.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    <!--bootstrap link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- font link-->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Berkshire+Swash&family=Crimson+Text:ital,wght@0,400;0,600;1,600&family=Fondamento&family=Fredericka+the+Great&family=Galada&family=Merienda+One&family=Modak&family=PT+Serif+Caption:ital@0;1&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Grenze+Gotisch&family=Kurale&family=Rye&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div style="background: #f0ece3;">
+    <!--Nav bar-->
+  <nav class="navbar">
+    <div class="d-flex justify-content-between " style="width: 100%;overflow-x: hidden;overflow-y: hidden;">
+      <div class="d-flex ">
+        <a href="#" class="navbar-brand"><img src="storeImages/logo1.png" id="brand_logo"/></a>
+        <div class="d-flex flex-column ml-1" style="position: relative;top: 10px;">
+          <h2 id="brand_name">Barruko Studios</h2>
+          <span id="brand_text">Interior Design</span>
+        </div>
+      </div>
+
+      <div class="d-flex float-right ml-3 mt-2 mr-5">
+        <img src="storeImages/wall-clock.png" alt="" id="clock_png"/>
+        <div class="d-flex flex-column ml-2 mr-3">
+          <h5 class="info-text">OFFICE HOURS</h5>
+          <small class="text-muted-text-center time-stamp" style="position: relative;bottom: 10px;">
+            9:00 am to 7:00 pm
+          </small>
+        </div>
+
+        <img src="storeImages/mail.png" alt="" id="message_png"/>
+        <div class="d-flex flex-column ml-2">
+          <h5 class="info-text">EMAIL</h5>
+          <small class="text-muted-text-center" style="position: relative;bottom: 10px;">
+            interior@des.com
+          </small>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <nav id="navbar_2" class="navbar navbar-expand-md sticky-top navbar_2_small" style="background: #222830; font-size: 1rem;">
+    <div class="flex-content">
+      <ul class="navbar-nav navbar-expand">
+        <li class="nav-item"><a href="home" class="nav-link"><i class="fa fa-home"></i></a></li>
+        <li class="nav-item pl-1"><a href="our-work" class="nav-link">OUR WORK</a></li>
+        <li class="nav-item ml-2"><a href="about-us" class="nav-link">ABOUT</a></li>
+        <li class="nav-item ml-2"><a href="store" class="nav-link active">STORE</a></li>
+        <li class="nav-item ml-2"><a href="form" class="nav-link">CONTACT</a></li>
+      </ul>
+    </div>
+
+    <button class="navbar-toggler" type="button" id="topnavbartogglerbutton_2">
+      <i class="fa fa-angle-down" id="navbar_icon"></i>
+    </button>
+
+    <div class="flex-content" id="collapseibleNavbar_2">
+      <div class="d-flex float-right">
+        <div class="input-group ml-3" id="try_2">
+          <input type="search" spellcheck="false" class="form-control" placeholder="Search.." id="SearchTextBox"/>
+          <a href="#"><button type="button" id="searchSubmit" class="btn btn-success" class="input-group-text"><i class="fa fa-search"></i></button></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+  <!-- SCRIPT FOR TOGGLER BUTTON -->
+  <script>
+    $(function(){
+      $(".navbar-toggler").click(function(){
+        $(this).css({'border':'none','outline':'none'})
+        $(this).find("i").toggleClass('fa-angle-up fa-angle-down')
+      });
+      $(".navbar-toggler").focus(function(){
+        $(this).css({'border':'none','outline':'none'})
+      });
+    });
+  </script>
+
+
+
+<!-- Script for toggler button -->
+<script>
+$(function(){
+
+  $("#topnavbartogglerbutton_2").click(function(){
+    $("#collapsibleNavbar_2").slideToggle(300)
+  });
+
+});
+</script>
+
+<!-- Script for Scrolling Screen -->
+<script>
+
+  $(function(){
+    $(window).scroll(function(){
+      $("#navbar_2").css('opacity','0.95')
+    });
+  });
+
+</script>
+
+
+
+    <!-- contents on the body  -->
+    <h1 class="body-h1">VISIT OUR STORE</h1>
+
+
+    <!-- Carousel section  -->
+    <div class="carousel carousel-main" >
+      <h3 style="text-align: center; padding-top:40px">CHECK OUT EVERY SINGLE THING YOU NEED TO DECORATE YOUR LIVING SPACE</h3>
+      <div id="carouselExampleControls" class="carousel slide c-slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active p-2 rounded" style="border:2.5px solid #222830">
+              <img src="storeImages/c1.jpg" class="d-block w-100 carousel-img">
+          </div>
+          <div class="carousel-item p-2 rounded" style="border:2.5px solid #222830">
+            <img src="storeImages/c2.jpg" class="d-block w-100 carousel-img">
+          </div>
+          <div class="carousel-item p-2 rounded" style="border:2.5px solid #222830">
+            <img src="storeImages/c3.jpg" class="d-block w-100 carousel-img">
+          </div>
+          <div class="carousel-item p-2 rounded" style="border:2.5px solid #222830">
+            <img src="storeImages/c4.jpg" class="d-block w-100 carousel-img">
+          </div>
+          <div class="carousel-item p-2 rounded" style="border:2.5px solid #222830">
+            <img src="storeImages/c5.jpg" class="d-block w-100 carousel-img">
+          </div>
+          <div class="carousel-item p-2 rounded" style="border:2.5px solid #222830">
+            <img src="storeImages/c6.jpg" class="d-block w-100 carousel-img">
+          </div>
+          <div class="carousel-item p-2 rounded" style="border:2.5px solid #222830">
+            <img src="storeImages/c7.jpg" class="d-block w-100 carousel-img">
+          </div>
+        </div>
+      </div> 
+      <div class="pl-2 mt-2" style="font-family:ubuntu;border-left:5px solid coral;border-top-left-radius:4px;
+        border-bottom-left-radius:4px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad totam inventore consectetur eaque, perspiciatis recusandae, provident doloremque, ipsa labore ullam iusto optio debitis dignissimos? Culpa quod necessitatibus porro harum optio!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium odit quaerat voluptates aliquam repellendus, reiciendis, officia pariatur non temporibus atque aspernatur quis similique porro, architecto eum fugit nihil perferendis cupiditate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores a quae natus vero expedita ea quidem doloremque exercitationem nobis, odit dolorem deserunt accusamus nemo fuga quasi ex repudiandae beatae voluptatum.
+      </div>
+    </div>
+
+
+    <div class="our-products">
+      <h1>CHECK OUT OUR NEW EXCITING RANGE OF PRODUCTS</h1> 
+    </div>
+    
+  <div class="main">
+    <!--Shopping section-->
+    <div class="shop">
+      
+      <div class="items-box">
+        <!--Bedrooms-->
+        <div class="card" style="width:auto;height:auto"> 
+          <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="storeImages/bedroom/12.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/bedroom/4.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/bedroom/6.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/bedroom/8.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/bedroom/9.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/bedroom/CPM0007182_plp-1460979286_anato-straight-wardrobe.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/bedroom/MBJIFP6974_main-1452580192_melville-straight-wardrobe.webp" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title" style="color:coral">Bedrooms </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        
+        <!--Livingroom-->
+        <div class="card" style="width:auto;height:auto">
+          <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="storeImages/livingroom/11.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/livingroom/5.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/livingroom/6.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/livingroom/9.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/livingroom/design1.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/livingroom/design3.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title" style="color:coral">Livingroom</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        
+        <!--Bathroom-->
+        <div class="card" style="width:auto;height:auto">
+          <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="storeImages/bathroom/2c6a3702da88c12bd3c85ab2803b0076 Cropped.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/bathroom/69e9d6b7449e2e6bc704f7e4f9c3876d Cropped.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/bathroom/bathroom design Cropped.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/bathroom/download Cropped.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/bathroom/images (1) Cropped.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/bathroom/images Cropped.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/bathroom/wide-angle-view-of-a-very-small-bathroom-516516879-5a948d45ba61770036a8a210 Cropped.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/bathroom/Small-bathroom-ideas-hexagons.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title" style="color:coral">Bathroom</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        
+        <!--Kitchen-->
+        <div class="card" style="width:auto;height:auto">
+          <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="storeImages/kitchen/12-2_main-image.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/kitchen/13_main-image.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/kitchen/15_main-image.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/kitchen/16_main-image.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/kitchen/19_main-image.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/kitchen/22_main-image.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/kitchen/23_main-image.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/kitchen/24_main-image.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="storeImages/kitchen/7_main-image.webp" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title" style="color:coral">Kitchen</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+         
+      </div>
+
+     <!--Furnitures-->
+     <div class="items-box">
+      <!--Tables-->
+      <div class="card" style="width:auto;height:auto"> 
+        <div class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="storeImages/furnitures/tables/86d4667c5fbb06652ee735fce86924a7 Cropped.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/furnitures/tables/designer-plastic-table-500x500 Cropped.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/furnitures/tables/df93343b5b55a1b790a00e5b3c6272aa Cropped.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/furnitures/tables/download (1) Cropped.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/furnitures/tables/download Cropped.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/furnitures/tables/urban-coffee-table-21.jpg" class="card-img-top" alt="...">
+            </div>
+            
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title" style="color:coral">Tables</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      
+      <!--Sofa-->
+      <div class="card" style="width:auto;height:auto">
+        <div class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="storeImages/furnitures/sofa/107852891-poster-above-grey-sofa-with-pink-blanket-in-living-room-interior-with-white-lamp-and-plant-real-phot Cropped.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/furnitures/sofa/download (2) Cropped.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/furnitures/sofa/download Cropped.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/furnitures/sofa/round-sofa-inspirations-11 Cropped.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/livingroom/design1.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title" style="color:coral">Sofa</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      
+      <!--Wardrobe-->
+      <div class="card" style="width:auto;height:auto">
+        <div class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="storeImages/furnitures/wardrobe/bedroom-wooden-wardrobe-design-500x500.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/furnitures/wardrobe/81+qValUqeL._SL1500_.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/furnitures/wardrobe/wardrobe-design-with-in-built-tv-unit.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/furnitures/wardrobe/YG18-HPL-Wood-Grain-Laminate-Hotel-Wardrobe-Design (2).jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title" style="color:coral">Wardrobe</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+      <!--WorkBench-->
+      <div class="card" style="width:auto;height:auto">
+        <div class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="storeImages/kitchen/12-2_main-image.webp" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/kitchen/13_main-image.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/kitchen/15_main-image.webp" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/kitchen/16_main-image.webp" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/kitchen/19_main-image.webp" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/kitchen/22_main-image.webp" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/kitchen/23_main-image.webp" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/kitchen/24_main-image.webp" class="card-img-top" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="storeImages/kitchen/7_main-image.webp" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title" style="color:coral">Workbench</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+       
+    </div>
+      
+    <div class="contact">
+      <a href="form" class="btn btn-lg btn-warning btn-block rounded-pill">Contact Us</a>
+    </div>
+
+
+  <div class="container mt-5 mb-4">
+    <div class="row">
+      <div class="col-md">
+        <div class="card mb-4 shadow-sm" style="height:360px">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Free</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title"><span>&#8377</span> 0 <small class="text-muted">/ month</small></h1>
+              <ul class="list-styled mt-3 mb-5 pr-3">
+                <li>Delivery charge included</li>
+                <li>Discounts available only on special occassions</li>
+                <li>Goodies with every purchase</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-outline-secondary button">Sign up for free</button>
+            </div>
+        </div>
+      </div><!--col md-->
+      <div class="col-md">
+        <div class="card mb-4 shadow-sm" style="height:360px">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Pro</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title"><span>&#8377</span> 199 <small class="text-muted">/ month</small></h1>
+              <ul class="list-styled mt-3 mb-5 pr-3">
+                <li>Free Delivery</li>
+                <li>Special coupons on every purchase</li>
+                <li>Priority email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-secondary button">Get started</button>
+            </div>
+          </div>
+      </div><!--col md-->
+      <div class="col-md">
+        <div class="card mb-4 shadow-sm" style="height:360px">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Enterprise</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title"><span>&#8377</span> 299 <small class="text-muted">/ month</small></h1>
+              <ul class="list-styled mt-3 mb-5">
+                <li>Free Delivery</li>
+                <li>Special coupons on every purchase</li>
+                <li>Priority email support</li>
+                <li>Help center access</li>
+                <li>Special Discount Vouchers</li>
+                <li>Gold points for every purchase</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-secondary button">Get started</button>
+            </div>
+        </div>
+      </div><!--col md-->
+    </div><!--row-->
+  </div><!--container-->
+
+ 
+
+  <footer>
+
+    <div class="d-flex flex-column pt-4 pl-5 pr-3 mt-5 " style="background:#222830">
+
+      <div id="scrl-up">
+        <button><i class="fa fa-arrow-up" id="try"></i>
+        </button>
+      </div>
+
+      <div class="row" style="position:relative;top:-70px">
+        <div class="col-md">
+          <div class="d-flex flex-column pl-2" id="f-barruko-box" >
+            <h2 class="text-warning" style="font-size:25px;">BARRUKO STUDIOS</h2>
+            <p style="color:#bcbcb3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class="d-flex">
+
+              <a href="#" class="connectLink" onmouseover='this.style.color="#c4002d"' onmouseout='this.style.color="#FF1E56"'><i class="fab fa-google connectIcon ml-2"></i></a>
+
+              <a href="#" class="connectLink"><i class="fab fa-facebook connectIcon ml-3"  onmouseover='this.style.color="#2364dd"' onmouseout='this.style.color="#335EB2"'></i></a>
+
+              <a href="#" class="connectLink"><i class="fab fa-instagram connectIcon ml-3" onmouseover='this.style.color="#ff880a"' onmouseout='this.style.color="#F6BD5B"'></i></a>
+
+              <a href="#" class="connectLink" onmouseover='this.style.color="#43c9f2"' onmouseout='this.style.color="#19B2E4"'><i class="fab fa-twitter connectIcon ml-3"></i></a>
+
+              <a href="#" class="connectLink" onmouseover='this.style.color="#ef2342"' onmouseout='this.style.color="#E00022"'><i class="fab fa-pinterest connectIcon ml-3"></i></a>
+
+              <a href="#" class="connectLink" onmouseover='this.style.color="#1092d3"' onmouseout='this.style.color="#0070AC"'><i class="fab fa-linkedin-in connectIcon ml-3"></i></a>
+            
+          </div><!--d-flex-->
+          </div><!--flex-column-->
+        </div><!--col-->
+        <div class="col-md pt-4">
+          <h2 class="text-white">LATEST NEWS</h2>
+          <p><a href="#" class="f-link" >Future home will be designed around tech</a></p>
+          <div class="f-hr-line"></div>
+          <p ><a href="#" class="f-link">Home interior design ideas: 5 accessories</a></p>
+          <div class="f-hr-line"></div>
+          <p><a href="#" class="f-link">Reinventing Design education for 2020</a></p>
+          <div class="f-hr-line"></div>
+          <p><a href="#" class="f-link">Glass and Green House</a></p>
+          <div class="f-hr-line"></div>
+        </div><!--col-->
+        <div class="col-md pt-4">
+          <h2 class="text-white">GALLERY</h2>
+          <div class="d-flex flex-column pt-2 gallery">
+            <div class="d-flex">
+              <img src="storeImages/design2.jpg" class="f-image"/>
+              <img src="storeImages/design1.jpg" class="pl-2 f-image"/>
+            </div><!--d-felx-->
+            <div class="d-flex pt-2">
+              <img src="storeImages/design8.jpg" class="f-image"/>
+              <img src="storeImages/design3.jpg" class="pl-2 f-image"/>
+            </div><!--dflex-->
+
+          </div><!--flex column-->
+        </div><!--col-->
+        <div class="col-md pt-4">
+          <div class="d-flex flex-column">
+            <h2 class="text-white">CONTACT US</h2>
+            <span class="f-contact-head">Address:</span>
+            <span style='color:#bcbcb3'>42/38-A, Abc Street, India, 732810</span><br>
+            <span class="f-contact-head">Call Us:</span>
+            <span><a href="tel:1234567890" class="f-link" >(123) 456-78-90</a></span><br>
+            <span class="f-contact-head">Mail Us:</span>
+            <span><a href="mailto:interior@des.com" class="f-link">interior@des.com</a></span><br>
+          </div><!--flex-column-->
+        </div><!--col-->
+      </div><!--row-->
+      <p class="text-center f-copy-text" style="position:relative;bottom:30px">&copy; 2020 <span style="font-family:fantasy;letter-spacing:1.2px ">Barruko Studios</span>. All Rights Reserved </p>
+    </div><!--d-flex-->
+  </footer>
+
+
+  <script>
+    $(function(){
+      $(".f-link").hover(function(){
+        $(this).parent().next().animate({width:"90%"},'slow');
+        $(this).parent().next().css("border","1px solid #a59a52");
+      },function(){
+         $(this).parent().next().animate({width:"5%"},'slow');
+          $(this).parent().next().css("border","1px solid #bcbcb3");
+      });
+    });
+  </script>
+
+
+  <!-- To Scroll Up -->
+
+  <script>
+    $(function(){
+      $("#scrl-up > button").click(function(){
+        var height = $(window).height()
+        $("html,body").animate({scrollTop:-height},1000);
+      });
+    });
+  </script>
+</body>
+</html>

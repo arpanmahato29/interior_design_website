@@ -1,0 +1,27 @@
+
+
+        /*styling the scroll bar */
+
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 2px;
+        }
+
+        ::-webkit-scrollbar-corner {
+            background: blue;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(to bottom,#000000,#0f0135);
+        }
+
+            ::-webkit-scrollbar-thumb:hover {
+                transition: 0.4s;
+                background: linear-gradient(to bottom,#000000,#111111);
+            }
+
+        ::-webkit-scrollbar-track {
+            background: lightgrey;
+        }
+
+  
